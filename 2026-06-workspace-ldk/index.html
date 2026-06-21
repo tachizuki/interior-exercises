@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ワークスペースのあるLDK ｜ インテリア提案</title>
+<style>
+  :root{
+    --bg:#faf7f2; --card:#ffffff; --ink:#3a352f; --sub:#8a8175;
+    --line:#e7e0d6; --accent:#b08d63; --accent-bg:#f3ece1; --brown:#7a5c43;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:'Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif;
+    line-height:1.7;font-size:15px;}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px 80px;}
+  header{padding:54px 0 30px;border-bottom:2px solid var(--accent);margin-bottom:8px;}
+  .eyebrow{color:var(--accent);font-size:12px;letter-spacing:.25em;font-weight:700;margin:0 0 10px;}
+  h1{font-family:'Hiragino Mincho ProN','Yu Mincho',serif;font-size:30px;font-weight:600;margin:0 0 8px;letter-spacing:.02em;}
+  .lead{color:var(--sub);margin:0;font-size:14px;}
+  h2{font-family:'Hiragino Mincho ProN','Yu Mincho',serif;font-size:20px;font-weight:600;
+    margin:46px 0 14px;padding-left:12px;border-left:4px solid var(--accent);}
+  h3{font-size:14px;font-weight:700;color:var(--brown);margin:22px 0 8px;}
+  p{margin:0 0 12px;}
+  ul{margin:0 0 12px;padding-left:1.2em;}
+  li{margin:4px 0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:14px 0;}
+  .meta{display:grid;grid-template-columns:120px 1fr;gap:6px 16px;font-size:14px;}
+  .meta dt{color:var(--sub);font-weight:700;}
+  .meta dd{margin:0;}
+  table{width:100%;border-collapse:collapse;margin:10px 0 18px;font-size:14px;background:var(--card);
+    border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{background:var(--accent-bg);color:var(--brown);font-weight:700;white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  .num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;}
+  .total td{background:var(--accent-bg);font-weight:700;color:var(--brown);}
+  .price-table a{color:var(--accent);text-decoration:none;font-weight:600;}
+  .price-table a:hover{text-decoration:underline;}
+  .tag{display:inline-block;background:var(--accent-bg);color:var(--brown);
+    border-radius:999px;padding:4px 13px;margin:3px 6px 3px 0;font-size:13px;font-weight:700;}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin:12px 0;}
+  figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+  figure img{width:100%;height:180px;object-fit:cover;display:block;background:var(--accent-bg);cursor:zoom-in;transition:opacity .15s;}
+  figure img:hover{opacity:.88;}
+  figcaption{font-size:12px;color:var(--sub);padding:8px 10px;}
+  .note{background:#fff8ec;border:1px dashed var(--accent);border-radius:10px;
+    padding:12px 16px;font-size:13px;color:var(--brown);margin:18px 0;}
+  footer{margin-top:50px;padding-top:18px;border-top:1px solid var(--line);color:var(--sub);font-size:12px;}
+  /* クリックで拡大（同ページ内ライトボックス） */
+  #lightbox{position:fixed;inset:0;background:rgba(20,18,16,.92);display:none;
+    align-items:center;justify-content:center;z-index:999;padding:24px;cursor:zoom-out;}
+  #lightbox.open{display:flex;}
+  #lightbox img{max-width:100%;max-height:100%;border-radius:10px;box-shadow:0 12px 60px rgba(0,0,0,.55);}
+  @media print{.note{display:none;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">INTERIOR PROPOSAL ｜ 2026.06</p>
+  <h1>ワークスペースのあるLDK</h1>
+  <p class="lead">4人家族・新居 ／ 在宅ワークと子育ての両立をかなえる</p>
+</header>
+
+<h2>1. 依頼者プロフィール</h2>
+<div class="card">
+  <dl class="meta">
+    <dt>家族構成</dt><dd>夫婦＋子ども2人（3歳・1歳）／新居を購入</dd>
+    <dt>暮らし方</dt><dd>在宅ワークあり。子どもがカウンターデスクをよく使う</dd>
+    <dt>買い替え・追加</dt><dd>デスクチェア／デスク照明／ダイニングチェア／テレビボード</dd>
+    <dt>前提条件</dt><dd>高価・割れやすい物は避けたい。デスク前窓はハニカムシェード化済み（カーテンレールは残置）</dd>
+  </dl>
+</div>
+
+<h3>お悩み（4点）</h3>
+<ul>
+  <li>① ソファ前にラグを敷くとデスクの椅子が引けない</li>
+  <li>② 茶色のソファが浮いている</li>
+  <li>③ リビング・ダイニングの中央がぽっかり空いている</li>
+  <li>④ ロッキングチェアの置き場所が定まらない</li>
+</ul>
+
+<h2>2. コンセプト</h2>
+<p>依頼者の好みから方向性を統一する。</p>
+<p>
+  <span class="tag">丸み</span>
+  <span class="tag">アイボリー／ベージュ</span>
+  <span class="tag">ウッド</span>
+  <span class="tag">グリーン（植物）</span>
+  <span class="tag">質感重視</span>
+  <span class="tag">物量を抑える</span>
+</p>
+<p><strong>テーマ：</strong>素材の質感で魅せる、すっきりしたナチュラル。色数と物数を絞り、丸みのある家具で空間をやわらかく。</p>
+
+<h2>3. 分析</h2>
+<ul>
+  <li><strong>好みの要素：</strong>丸・アイボリー・植物・ウッド</li>
+  <li><strong>傾向：</strong>物数は少なめ、質感は強め</li>
+  <li><strong>課題の本質：</strong>「動線（椅子の引き代）」「色の浮き」「中央のデッドスペース」の3点を同時に解く</li>
+</ul>
+
+<h2>4. ゾーニングと解決</h2>
+<p>お悩みを1つずつ、ゾーニングで解消する。</p>
+<table>
+  <tr><th>お悩み</th><th>解決策</th></tr>
+  <tr><td>① 椅子が引けない</td><td>ワークスペース<strong>背面に円形ラグ</strong>で子どもエリアを新設。円形なら椅子を引いても干渉しない</td></tr>
+  <tr><td>② 茶ソファが浮く</td><td>各ゾーンに<strong>茶色を点在</strong>させ、ソファを全体に馴染ませる</td></tr>
+  <tr><td>③ 中央が空く</td><td>空いた中央に<strong>リビングを集約</strong>。回遊しやすいレイアウトに</td></tr>
+  <tr><td>④ ロッキングチェアの定位置</td><td>③のリビングゾーンへ<strong>定位置化</strong></td></tr>
+</table>
+
+<h3>さらに効かせた工夫</h3>
+<ul>
+  <li>ワークスペースのチェアを<strong>3脚</strong>に（1脚では寂しいため）。家族で並んで使える</li>
+  <li>子どもの<strong>写真・玩具をラグでグルーピング</strong>し、子どもエリアとして集約。散らかりを一箇所に収める</li>
+</ul>
+
+<h2>5. 使用家具と概算費用</h2>
+<table class="price-table">
+  <tr><th>カテゴリ</th><th>商品</th><th class="num">単価(税込)</th><th class="num">数量</th><th class="num">小計</th></tr>
+  <tr><td>チェア</td><td><a href="https://flymee.jp/product/120678/" target="_blank" rel="noopener">moda en casa MALIBU chair</a>（ワークスペース）</td><td class="num">¥35,200</td><td class="num">3</td><td class="num">¥105,600</td></tr>
+  <tr><td>チェア</td><td><a href="https://flymee.jp/product/114808/" target="_blank" rel="noopener">FLYMEe Vert DINING CHAIR</a></td><td class="num">¥51,700</td><td class="num">4</td><td class="num">¥206,800</td></tr>
+  <tr><td>サイドテーブル</td><td><a href="https://flymee.jp/product/29674/" target="_blank" rel="noopener">FLYMEe Room SIDE TABLE</a></td><td class="num">¥15,180</td><td class="num">1</td><td class="num">¥15,180</td></tr>
+  <tr><td>ローテーブル</td><td><a href="https://www.unico-fan.co.jp/collections/table/products/u13630482026025z8551" target="_blank" rel="noopener">unico GLADZ ローテーブル W950</a></td><td class="num">¥27,500</td><td class="num">1</td><td class="num">¥27,500</td></tr>
+  <tr><td>ローテーブル</td><td><a href="https://www.unico-fan.co.jp/collections/table/products/u13630482026025z8550" target="_blank" rel="noopener">unico GLADZ ローテーブル W700</a></td><td class="num">¥22,000</td><td class="num">1</td><td class="num">¥22,000</td></tr>
+  <tr><td>コンソール</td><td><a href="https://kuroshiro.shop/products/abss50" target="_blank" rel="noopener">KUROSHIRO CONSOLE TABLE</a></td><td class="num">¥33,000</td><td class="num">1</td><td class="num">¥33,000</td></tr>
+  <tr><td>テレビボード</td><td><a href="https://takanomokkoushop.com/view/item/000000002329" target="_blank" rel="noopener">高野木工 RIB 150ローボード オーク</a></td><td class="num">¥218,000</td><td class="num">1</td><td class="num">¥218,000</td></tr>
+  <tr><td>テレビボード</td><td><a href="https://takanomokkoushop.com/view/item/000000002330" target="_blank" rel="noopener">高野木工 RIB 75ローボード オーク</a></td><td class="num">¥128,000</td><td class="num">1</td><td class="num">¥128,000</td></tr>
+  <tr><td>照明</td><td><a href="https://www.ikea.com/jp/ja/p/dejsa-table-lamp-beige-opal-white-glass-40404990/" target="_blank" rel="noopener">IKEA DEJSA テーブルランプ</a></td><td class="num">¥5,999</td><td class="num">1</td><td class="num">¥5,999</td></tr>
+  <tr><td>照明</td><td><a href="https://www.ikea.com/jp/ja/p/roedflik-desk-lamp-light-beige-70583438/" target="_blank" rel="noopener">IKEA RÖDFLIK デスクランプ</a></td><td class="num">¥2,999</td><td class="num">1</td><td class="num">¥2,999</td></tr>
+  <tr><td>照明</td><td><a href="https://www.ikea.com/jp/ja/p/jakobsbyn-jaellby-pendant-lamp-clear-glass-nickel-plated-s79388116/" target="_blank" rel="noopener">IKEA JAKOBSBYN／JÄLLBY ペンダント</a></td><td class="num">¥6,498</td><td class="num">1</td><td class="num">¥6,498</td></tr>
+  <tr><td>ラグ</td><td><a href="https://www.ikea.com/jp/ja/p/stoense-rug-low-pile-off-white-20491714/" target="_blank" rel="noopener">IKEA STOENSE ラグ（195cm 円形・オフホワイト）</a></td><td class="num">¥12,990</td><td class="num">1</td><td class="num">¥12,990</td></tr>
+  <tr><td>収納</td><td><a href="https://www.ikea.com/jp/ja/p/kallax-shelving-unit-white-00628930/" target="_blank" rel="noopener">IKEA KALLAX シェルフ</a></td><td class="num">¥8,499</td><td class="num">1</td><td class="num">¥8,499</td></tr>
+  <tr><td>収納</td><td><a href="https://www.ikea.com/jp/ja/p/branaes-basket-rattan-80173153/" target="_blank" rel="noopener">IKEA BRANÄS ラタンバスケット</a></td><td class="num">¥2,499</td><td class="num">3</td><td class="num">¥7,497</td></tr>
+  <tr class="total"><td colspan="4" class="num">概算合計（税込）</td><td class="num">¥800,562</td></tr>
+</table>
+<p class="note">家具ソース：<a href="https://online.actus-interior.com/brandlist/" target="_blank" rel="noopener">ACTUS ブランド一覧</a></p>
+
+<h2>6. 代替案（予算調整）</h2>
+<p>高額な2点は、雰囲気を保ちつつコストを抑えた代替品も用意。好みと予算で選べる。</p>
+<table>
+  <tr><th>項目</th><th>こだわり案</th><th>代替案（予算重視）</th></tr>
+  <tr>
+    <td>ダイニングチェア</td>
+    <td>FLYMEe Vert DINING CHAIR<br>¥51,700 × 4 ＝ ¥206,800</td>
+    <td><a href="https://www.nitori-net.jp/ec/product/4001435s/" target="_blank" rel="noopener">ニトリ ダイニングチェア</a><br>¥15,000 × 4 ＝ ¥60,000</td>
+  </tr>
+  <tr>
+    <td>テレビボード</td>
+    <td>高野木工 RIB 150＋75<br>¥346,000</td>
+    <td><a href="https://www.low-ya.com/goods/ZVHL5" target="_blank" rel="noopener">LOWYA テレビ台 ZVHL5</a><br>¥69,990（1点に集約）</td>
+  </tr>
+  <tr class="total">
+    <td>全体の概算合計</td>
+    <td class="num">¥800,562</td>
+    <td class="num">¥377,752</td>
+  </tr>
+</table>
+<p class="note">代替案を採用すると <strong>約 ¥422,810 の削減</strong>（こだわり案 ¥800,562 → 代替案 ¥377,752）。テレビボードは高野木工2点をLOWYA1点に置換した想定です。</p>
+
+<h2>7. 完成イメージ（3Dパース）</h2>
+<p style="color:var(--sub);font-size:13px;">画像をクリックすると拡大表示します。</p>
+<div class="gallery">
+  <figure><img src="img/20260621_課題_未指定スペース-22.jpeg" alt="リビング全景"><figcaption>リビング全景（中央に集約）</figcaption></figure>
+  <figure><img src="img/20260621_課題_未指定スペース-19.jpeg" alt="リビングTV側"><figcaption>リビング（TV・ソファまわり）</figcaption></figure>
+  <figure><img src="img/20260621_課題_未指定スペース-20.jpeg" alt="ダイニング"><figcaption>ダイニング</figcaption></figure>
+  <figure><img src="img/20260621_課題_未指定スペース-17.jpeg" alt="ワークスペース全景"><figcaption>ワークスペース全景</figcaption></figure>
+  <figure><img src="img/20260621_課題_未指定スペース-16.jpeg" alt="ワークスペースと子どもエリア"><figcaption>ワークスペース（3脚）＆子どもエリア</figcaption></figure>
+  <figure><img src="img/20260621_課題_未指定スペース-24.jpeg" alt="子どもエリア収納"><figcaption>子どもエリア（収納・遊び場）</figcaption></figure>
+</div>
+
+<footer>
+  インテリア塾 月次課題（2026年6月）｜ テーマ：ワークスペースのあるインテリア
+</footer>
+
+</div>
+
+<!-- クリック拡大用ライトボックス -->
+<div id="lightbox" onclick="this.classList.remove('open')"><img id="lightbox-img" src="" alt="拡大表示"></div>
+<script>
+  document.querySelectorAll('.gallery img').forEach(function(im){
+    im.addEventListener('click', function(){
+      document.getElementById('lightbox-img').src = this.src;
+      document.getElementById('lightbox').classList.add('open');
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape') document.getElementById('lightbox').classList.remove('open');
+  });
+</script>
+</body>
+</html>
